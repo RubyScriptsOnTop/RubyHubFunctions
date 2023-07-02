@@ -173,6 +173,11 @@ RubyHubFunctions.SetJumpPower(16) -- number | int - Sets Characters JumpPower
 
 ## Spoof Players
 Can Crash in Large Games
+- Spoofs Leaderboard
+- Spoofs Chat
+- Spoofs Name Above Avatar
+- Sometimes Spoofs All Instances Of Player Name/Display Name [idk why it only works sometimes]
+- Once Spoof Enabled Players That Join Get Auto Spoofed
 ```lua
 RubyHubFunctions.SpoofPlayers("RubyHub") -- string - Spoofs Players Names: default = "RubyHub"
 ```
