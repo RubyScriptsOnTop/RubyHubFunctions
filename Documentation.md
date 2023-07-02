@@ -5,9 +5,9 @@
 <br>
 ```lua
 local Configs = {
-    StartupNotification = true, -- Toast Notification Upon Startup
-    StartupAnimation = true, -- Ruby Hub Startup Animation
-    ErrorToastNotifications = true -- Toast Notification For Errors
+    StartupNotification = true,
+    StartupAnimation = true,
+    ErrorToastNotifications = true
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyScriptsOnTop/RubyHubFunctions/main/source"))(Configs)
