@@ -1,6 +1,5 @@
 # Ruby Hub Functions
-<br>
-
+Documentation of Ruby Hub Functions provided to create a user friendly experience.
 ## Getting Functions
 ```lua
 local Configs = {
