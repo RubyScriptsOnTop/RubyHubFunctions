@@ -10,4 +10,5 @@ local Configs = {
     ErrorToastNotifications = true -- Toast Notification For Errors: default = false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyScriptsOnTop/RubyHubFunctions/main/source"))(Configs)```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyScriptsOnTop/RubyHubFunctions/main/source"))(Configs)
+```
