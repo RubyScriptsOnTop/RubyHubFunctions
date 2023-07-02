@@ -1,6 +1,6 @@
 # Ruby Hub Functions
 These docs are inspired by Orion Libraries doc layout for an easy and user friendly experience.\
-Ruby Hub Functions can be run with or without the Configs table, running without uses the default settings.\n
+Ruby Hub Functions can be run with or without the Configs table, running without uses the default settings.\
 Ruby Hub Data is still in early development, expect bugs | Suggestions are always welcome in our discord server
 
 Join Discord Server For Updates + Support: https://discord.gg/9Nqz8QCyDf \
