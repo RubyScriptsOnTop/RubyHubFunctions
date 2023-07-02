@@ -12,3 +12,4 @@ local Configs = {
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyScriptsOnTop/RubyHubFunctions/main/source"))(Configs)
 ```
+## Test
