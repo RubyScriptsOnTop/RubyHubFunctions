@@ -2,7 +2,7 @@
 Ruby Hub Functions is a script that helps you make scripts more effeciently and easier to use! We recreate a variety of Roblox's Base functions or make our own to give you a custom, user friendly experience. \n
 Ruby Hub Functions is completely free to use and easy to incorporate into your script with the documentation.
 
-## For support please join the discord server and create a ticket
+## For support please join the Discord server and create a ticket
 https://discord.gg/9Nqz8QCyDf
 
 ## Support Us?
@@ -16,9 +16,11 @@ A: Yes, Ruby Hub Functions is free and planned to stay free Permenently.
 - Q: How do you fund the project? \
 A: The project is funded completely out of pocket or donations.
 - Q: What do I do if I need help fixing my script regarding a Ruby Hub Functions error? \
-A: Join the discord server and create a support ticket. I will be with you shortly.
+A: Join the Discord server and create a support ticket. I will be with you shortly.
 - Q: Can I share my script? \
-A: Yes! In our discord server you can share your **unobfuscated** scripts in the rhs-scripts channel.
+A: Yes! In our Discord server you can share your **unobfuscated** scripts in the rhs-scripts channel.
+- Q: What do I do if I found a bug? \
+A: Join the Discord server and post your bug in the script-bugs channel. 
 
 ## Message From Devs
 Thank you for choosing Ruby Hub Functions! I created this to help script developers make their scripts more efficiently and without having to write to many struggling functions. As said above, Ruby Hub Functions is completely free and will stay that way permanently. We run purely off of donations and gladly accept them of any size. \
