@@ -153,7 +153,7 @@ RubyHubFunctions.TeleportToGame(953932652) -- number | int - Teleports You to Ga
 
 ## Teleport To Location
 ```lua
-TeleportToLocation(CFrame.new(0, 100, 0)) -- CoordinateFrame - Teleports Character to Location
+RubyHubFunctions.TeleportToLocation(CFrame.new(0, 100, 0)) -- CoordinateFrame - Teleports Character to Location
 ```
 
 ## Teleport To Part
