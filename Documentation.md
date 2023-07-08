@@ -7,7 +7,7 @@ Join Discord Server For Updates + Support: https://discord.gg/9Nqz8QCyDf \
 Donate $1.50+ USD for a supporter role + Help fund Ruby Hub Functions: https://RubyHub.sellix.io/product/64a083ab643ea \
 
 Some of the things here are rewrites of base functions that Roblox Provides or Custom Versions of things that Roblox May or May Not have.
-Everything here can be found online through various scripting sites but some of them can contain a hefty amount of code, hance why I've made it so you can call them in a sing line.
+Everything here can be found online through various scripting sites but some of them can contain a hefty amount of code, hance why I've made it so you can call them in a single line.
 
 ## Starting Up Ruby Hub Functions
 ```lua
