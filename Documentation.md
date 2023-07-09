@@ -7,7 +7,7 @@ Join Discord Server For Updates + Support: https://discord.gg/9Nqz8QCyDf \
 Donate $1.50+ USD for a supporter role + Help fund Ruby Hub Functions: https://RubyHub.sellix.io/product/64a083ab643ea 
 
 Some of the things here are rewrites of base functions that Roblox Provides or Custom Versions of things that Roblox May or May Not have.
-Everything here can be found online through various scripting sites but some of them can contain a hefty amount of code, hance why I've made it so you can call them in a single line.
+Everything here can be found online through various scripting sites but some of them can contain a hefty amount of code, that's why I've made it so you can call them in a single line.
 
 ## Starting Up Ruby Hub Functions
 ```lua
@@ -23,6 +23,7 @@ RubyHubFunctions = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ru
 ![Startup Animation](exampleimages/RHSStartupAnimation.png)
 
 ## Sending A Webhook
+Sends a webhook to the Discord webhook URL provided with the data that is provided
 ```lua
 ReturnedData = RubyHubFunctions.SendWebhook({
     WebhookUrl = "https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxx_xx",
@@ -54,6 +55,7 @@ ReturnedData = RubyHubFunctions.SendWebhook({
 ![Webhook Example](exampleimages/RHSWebhook.png)
 
 ## Sending A Custom Toast Notification
+Sends the user a custom Toast Notification that has a custom icon and text, useful to inform users about something, or output errors
 ```lua
 RubyHubFunctions.ToastNotification({
     Title = "Hello", -- default = "Ruby Hub Notification"
@@ -72,6 +74,7 @@ RubyHubFunctions.ToastNotification({
 ![Toast Notification Example](exampleimages/RHSToastNotification.png)
 
 ## Startup Animation
+Creates an animated startup UI that you can use to make your script pop
 ```lua
 RubyHubFunctions.StartupAnimation({
     Title = "Ruby Hub Functions", -- default = "Ruby Hub Functions"
@@ -88,6 +91,7 @@ RubyHubFunctions.StartupAnimation({
 ![Startup Animation](exampleimages/RHSStartupAnimation.png)
 
 ## Send User Prompt
+Sends the user a prompt with a variety of buttons with customizability
 ```lua
 RubyHubFunctions.Prompt({
         Text = "Welcome " .. RubyHubFunctions.GetLocalPlayer().Name .. "!\n\nJoin the Ruby Hub Discord Server if you'd like to get announcements about updates and get support.\n\nhttps://discord.gg/9Nqz8QCyDf\n\nYou are running version " .. RubyHubFunctions.Data.ScriptVersion, -- default = "Thank you for choosing Ruby Hub Functions"
@@ -132,41 +136,49 @@ RubyHubFunctions.Prompt({
 ![Startup Animation](exampleimages/RHFPrompt.png)
 
 ## Set Rendering
+Sets the games 3d rendering state
 ```lua
 RubyHubFunctions.SetRendering(false) -- boolean | true = Normal Game Rendered in 3d / false = Game Not Rendered in 3d
 ```
 
 ## Set Quality
+Sets the users quality level
 ```lua
-RubyHubFunctions.SetQualityLevel(5) -- number | int <1-21> - Sets Game Quality Level
+RubyHubFunctions.SetQualityLevel(5) -- number | int <1-21>
 ```
 
 ## Enable Anti Afk
+Turns on anti afk to prevent being kicked when gone idle
 ```lua
-RubyHubFunctions.AntiAfk() -- Turns on Anti Afk to Prevent Disconnect For Being Idle
+RubyHubFunctions.AntiAfk()
 ```
 
 ## Teleport To Game
+Teleports user to game with corresponding game id
 ```lua
-RubyHubFunctions.TeleportToGame(953932652) -- number | int - Teleports You to Game With Corresponding Game Id
+RubyHubFunctions.TeleportToGame(953932652) -- number | int
 ```
 
 ## Teleport To Location
+Teleports users character to the provided location
 ```lua
-RubyHubFunctions.TeleportToLocation(CFrame.new(0, 100, 0)) -- CoordinateFrame - Teleports Character to Location
+RubyHubFunctions.TeleportToLocation(CFrame.new(0, 100, 0)) -- CoordinateFrame
 ```
 
 ## Teleport To Part
+Teleports users character to the provided part
 ```lua
-RubyHubFunctions.TeleportToPart(Workspace.Baseplate) -- instance | basepart/meshpart/union - Teleports Character to Part
+RubyHubFunctions.TeleportToPart(Workspace.Baseplate) -- instance | basepart/meshpart/union
 ```
 
 ## Set WalkSpeed
+Sets users walk speed to the provided speed
 ```lua
 RubyHubFunctions.SetWalkSpeed(16) -- number | int - Sets Characters Walkspeed
 ```
 
 ## Set JumpPower
+Sets users jump power to the provided power
 ```lua
 RubyHubFunctions.SetJumpPower(16) -- number | int - Sets Characters JumpPower
 ```
@@ -178,6 +190,8 @@ Can Crash in Large Games
 - Spoofs Name Above Avatar
 - Sometimes Spoofs All Instances Of Player Name/Display Name [idk why it only works sometimes]
 - Once Spoof Enabled Players That Join Get Auto Spoofed
+
+Spoofs players names to given string
 ```lua
 RubyHubFunctions.SpoofPlayers("RubyHub") -- string - Spoofs Players Names: default = "RubyHub"
 ```
