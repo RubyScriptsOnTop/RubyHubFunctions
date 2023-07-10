@@ -17,7 +17,7 @@ getgenv().RHF_Settings = {
     ErrorToastNotifications = true -- Toast Notifications For Errors: default = false
 }
 
-RubyHubFunctions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyScriptsOnTop/RubyHubFunctions/main/source"))()
+RubyHubFunctions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyScriptsOnTop/RubyHubFunctions/main/source.lua"))()
 ```
 ![Startup Notification](exampleimages/RHSStartupNotification.png)
 ![Startup Animation](exampleimages/RHSStartupAnimation.png)
