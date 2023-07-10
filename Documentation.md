@@ -11,7 +11,7 @@ Everything here can be found online through various scripting sites but some of 
 
 ## Starting Up Ruby Hub Functions
 ```lua
-local Configs = {
+getgenv().RHF_Settings = {
     StartupNotification = true, -- Toast Notification On Startup: default = true
     StartupAnimation = true, -- Loading Animation On Startup: default = true
     ErrorToastNotifications = true -- Toast Notifications For Errors: default = false
