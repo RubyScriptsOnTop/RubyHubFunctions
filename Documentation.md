@@ -135,6 +135,17 @@ RubyHubFunctions.Prompt({
 ```
 ![Startup Animation](exampleimages/RHFPrompt.png)
 
+## Get Players
+Gets a table of players in your server
+```lua
+RubyHubFunctions.GetPlayers()
+```
+
+## Get Local Player
+```lua
+RubyHubFunctions.GetLocalPlayer()
+```
+
 ## Set Rendering
 Sets the games 3d rendering state
 ```lua
